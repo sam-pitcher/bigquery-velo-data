@@ -1,0 +1,8 @@
+/scripts/venv/
+.env
+bq-service-account.json
+terraform.tfvars
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.lock.hcl
+.terraform/

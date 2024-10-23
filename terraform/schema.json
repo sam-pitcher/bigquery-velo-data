@@ -1,0 +1,171 @@
+[
+    {
+      "name": "history__created_time",
+      "type": "TIMESTAMP",
+      "mode": "REQUIRED",
+      "description": "The timestamp when the history was created"
+    },
+    {
+      "name": "history__id",
+      "type": "INTEGER",
+      "mode": "REQUIRED",
+      "description": "Unique identifier for the history entry"
+    },
+    {
+      "name": "history__source",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Source of the history entry"
+    },
+    {
+      "name": "history__issuer_source",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Source of the issuer"
+    },
+    {
+      "name": "history__slug",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Slug identifier"
+    },
+    {
+      "name": "history__status",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Status of the history entry"
+    },
+    {
+      "name": "history__result_format",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Result format (e.g., JSON)"
+    },
+    {
+      "name": "history__render_key",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Render key for the result"
+    },
+    {
+      "name": "history__real_dash_id",
+      "type": "INTEGER",
+      "mode": "NULLABLE",
+      "description": "ID of the real dashboard, if applicable"
+    },
+    {
+      "name": "history__message",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Message associated with the history event"
+    },
+    {
+      "name": "query__view",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "The view associated with the query"
+    },
+    {
+      "name": "query__dynamic_fields",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Dynamic fields in the query"
+    },
+    {
+      "name": "query__formatted_fields",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Formatted fields in the query as an array"
+    },
+    {
+      "name": "query__fill_fields",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Fill fields in the query"
+    },
+    {
+      "name": "query__filters",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Query filters"
+    },
+    {
+      "name": "query__formatted_pivots",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Formatted pivots for the query"
+    },
+    {
+      "name": "query__hash",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Hash of the query"
+    },
+    {
+      "name": "query__id",
+      "type": "INTEGER",
+      "mode": "NULLABLE",
+      "description": "Unique identifier for the query"
+    },
+    {
+      "name": "query__link",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Link to the query"
+    },
+    {
+      "name": "query__model",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Model of the query"
+    },
+    {
+      "name": "user__email",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Email of the user who triggered the query"
+    },
+    {
+      "name": "user__id",
+      "type": "INTEGER",
+      "mode": "NULLABLE",
+      "description": "User ID of the query initiator"
+    },
+    {
+      "name": "user__name",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Name of the user who triggered the query"
+    },
+    {
+      "name": "dashboard__description",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Description of the dashboard, if applicable"
+    },
+    {
+      "name": "dashboard__id",
+      "type": "INTEGER",
+      "mode": "NULLABLE",
+      "description": "Dashboard ID, if applicable"
+    },
+    {
+      "name": "dashboard__link",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Link to the dashboard, if applicable"
+    },
+    {
+      "name": "dashboard__lookml_link_id",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "LookML link ID for the dashboard"
+    },
+    {
+      "name": "dashboard__title",
+      "type": "STRING",
+      "mode": "NULLABLE",
+      "description": "Title of the dashboard, if applicable"
+    }
+  ]
+  
